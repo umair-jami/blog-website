@@ -14,12 +14,12 @@ export default function SocialMedia() {
 
     // Social Icons
     <nav className="flex gap-2 ">
-      <Link href={"http://https://www.youtube.com/@Em-Aar?sub_confirmation=1"} target="_blank">
+      {/* <Link href={"http://https://www.youtube.com/@Em-Aar?sub_confirmation=1"} target="_blank">
         <Youtube className={`w-6 h-6`} />
-      </Link>
-      {/* <Link href={"http://www.linkedin.com"} target="_blank">
-        <Linkedin className={`w-6 h-6`} />
       </Link> */}
+      <Link href={"https://www.linkedin.com/in/umair-jami/?trk=eml-email_network_conversations_01-header-0-profile_glimmer"} target="_blank">
+        <Linkedin className={`w-6 h-6`} />
+      </Link>
       {/* <Link href={"http://www.twitter.com"} target="_blank">
         <Twitter className={`w-4 h-4 `} fill="light" />
       </Link> */}
